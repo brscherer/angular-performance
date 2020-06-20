@@ -1,0 +1,7 @@
+<section class="container" [ngStyle]="{ background: color }">
+  <button (click)="changeBgColor()">Change Background Color</button>
+  <input type="text" [(ngModel)]="number" placeholder="Type a number to calculate fibonacci">
+  <button (click)="calculateFibonacci()">Calculate (Web Worker)</button>
+  <button (click)="calculateFibonacciMainThread()">Calculate (Main Thread)</button>
+  <span>Result: {{ output }} </span>
+</section>

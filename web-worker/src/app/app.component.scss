@@ -1,0 +1,19 @@
+:host {
+  display: flex;
+  justify-content: center;
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    padding: 32px 0;
+    
+    > *  {
+      margin: 16px 0;
+    }
+  
+    input, button {
+      padding: 8px 12px;
+    }
+  }
+}
